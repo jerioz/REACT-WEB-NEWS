@@ -1,0 +1,35 @@
+.header {
+    &__newsPage {background-color: #333;
+    padding: 20px;
+    color: #fff;
+    }
+
+    &__newsPage-title {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+.menu-nav {
+
+    &__newsPage-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    }
+
+    &__newsPage-item {
+    display: inline-block;
+    margin-right: 40px;
+    }
+
+    &__newsPage-link {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+        &:hover {
+        color: yellow;
+        } 
+    }
+}
