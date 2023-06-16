@@ -12,7 +12,7 @@ const Header = () => {
             <ul className='menu-nav__newsPage-list'>
                 <li className='menu-nav__newsPage-item'><Link to='/' className='menu-nav__newsPage-link'>Home</Link></li>
                 <li className='menu-nav__newsPage-item'><Link to='/form' className='menu-nav__newsPage-link'>Form</Link></li>
-                <li className='menu-nav__newsPage-item'><Link to='/about' className='menu-nav__newsPage-link'>ListNews</Link></li>
+                <li className='menu-nav__newsPage-item'><Link to='/list' className='menu-nav__newsPage-link'>ListNews</Link></li>
             </ul>
         </nav>
     </header>

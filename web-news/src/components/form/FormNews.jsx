@@ -37,7 +37,7 @@ const clearState = () => {
         clearState()
 
         setTimeout(() => {
-            navigate("/");
+            navigate("/list");
             }, 1000);
     };   
       
