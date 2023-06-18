@@ -17,7 +17,7 @@ export const ListNews = () => {
       <h1 className='news__title'>Most Read News</h1>
     
       {characters && characters.map((character) => (
-      <div className='news__text'>
+      <div className='news__text' key={character.id}>
         <h2>{character.title}</h2>
         <p>{character.abstract}</p>
         <img src={character.media[0]['media-metadata'][2].url} alt={character.title} />
