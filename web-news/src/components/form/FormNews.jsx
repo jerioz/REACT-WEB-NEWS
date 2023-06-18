@@ -64,8 +64,8 @@ const clearState = () => {
         required
         />
         <input
-        type="time"
-        value={data.time}
+        type="datetime-local"
+        value={data.datetime}
         onChange={handleInputChange}
         name="time"
         className='news__input'
