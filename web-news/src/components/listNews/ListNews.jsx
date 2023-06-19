@@ -21,6 +21,7 @@ export const ListNews = () => {
         <h2>{character.title}</h2>
         <p>{character.abstract}</p>
         <img src={character.media[0]['media-metadata'][2].url} alt={character.title} />
+        <p><a href={character.url} className='news__link'>Go to the news</a></p>
       </div>
       ))}
       </div>
