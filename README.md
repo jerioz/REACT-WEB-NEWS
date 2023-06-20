@@ -92,6 +92,15 @@ We will use SASS and CONTEXT to finish the project.
 
 
 
+## Screenshots
+
+![App Screenshot](https://github.com/jerioz/REACT-WEB-NEWS/blob/main/1.png?raw=true)
+
+![App Screenshot](https://github.com/jerioz/REACT-WEB-NEWS/blob/main/2.png?raw=true)
+
+
+
+
 ## Authors
 
 - [@jerioz](https://www.github.com/jerioz)
